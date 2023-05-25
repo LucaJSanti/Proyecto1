@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navegacion web</string>
+    <string name="webbutton">boton</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="BotonEntrar">Visitar</string>
+</resources>
