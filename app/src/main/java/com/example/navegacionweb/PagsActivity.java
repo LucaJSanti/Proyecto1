@@ -9,10 +9,6 @@ import android.widget.Button;
 
 public class PagsActivity extends AppCompatActivity {
 
-    private Button HRACbutton;
-    private Button casafebutton;
-    private Button aapresidbutton;
-
     private final static String HRAC = "https://hrac-argentina.org/";
     private final static String casafe = "https://www.casafe.org/?gclid=CjwKCAjwgqejBhBAEiwAuWHioIQCmokdpqcUGrfde6rYXEEybL0CCF8AZSiE_arVzxD3aekp-GVTyxoCq4sQAvD_BwE";
     private final static String aapresid = "https://www.aapresid.org.ar/rem/malezas";
@@ -21,21 +17,40 @@ public class PagsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pags);
 
-        HRACbutton = findViewById(R.id.BotonHRAC);
-        casafebutton = findViewById(R.id.BotonCasafe);
-        aapresidbutton = findViewById(R.id.BotonAapresid);
+        Button HRACbutton = findViewById(R.id.BotonHRAC);
+        HRACbutton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                visitarHRAC();
+            }
+        });
+        Button casafebutton = findViewById(R.id.BotonCasafe);
+        casafebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visitarcasafe();
+            }
+        });
+        Button aapresidbutton = findViewById(R.id.BotonAapresid);
+        aapresidbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visitaraapresid();
+            }
+        });
     }
 
-    public void visitarHRAC (View view){
+    private void visitarHRAC(){
         Intent i = new Intent(this,WebActivity.class);
         i.putExtra("SitioWeb",HRAC);
         startActivity(i);
     }
-    public void visitarcasafe (View view){
+    private void visitarcasafe (){
         Intent i = new Intent(this,WebActivity.class);
         i.putExtra("SitioWeb",casafe);
         startActivity(i);
-    }public void visitaraapresid (View view){
+    }
+    private void visitaraapresid (){
         Intent i = new Intent(this,WebActivity.class);
         i.putExtra("SitioWeb",aapresid);
         startActivity(i);
