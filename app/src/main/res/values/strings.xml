@@ -1,12 +1,20 @@
 <resources>
-    <string name="app_name">Navegacion web</string>
+    <string name="app_name">Agro Launcher</string>
     <string name="webbutton">boton</string>
     <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="BotonEntrar">Visitar</string>
-    <string name="BotonPaginas">Buscar Informacion</string>
+    <string name="BotonPaginas">Visitar Paginas Web</string>
     <string name="BotonIntro">Aceptar</string>
+    <string name="opcion1">MalezArg</string>
+    <string name="infomalezarg">Deteccion y monitoreo de malezas con ubicacion en el mapa</string>
+    <string name="opcion2">Criollo</string>
+    <string name="infocriollo">Calcular mescla para pulverizadores</string>
+    <string name="opcion3">BASF Agro</string>
+    <string name="infobasf">Control y gestion de cultivos, consulta de insumos</string>
+    <string name="opcion4">Con el tiempo mas apps seran agregadas</string>
+    <string name="mensajeemergente">La Aplicacion no esta instalada,¿desea instalarla?</string>
+    <string name="resputestaSI">Si</string>
+    <string name="respuestaNO">No</string>
     <string name="Textointroduccion">Bienvenido a NOMBRE DE LA APP, su nueva aplicación para organizar, su trabajo.
 Nuestra aplicación le brindara acceso a páginas web con información que pueda resultarle útil , además de contar un una selección de recomendaciones para usted de diferentes aplicaciones que podría instalar para complementarla y aplicarla.
 </string>
