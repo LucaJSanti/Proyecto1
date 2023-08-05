@@ -4,6 +4,7 @@
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="BotonEntrar">Visitar</string>
     <string name="BotonPaginas">Visitar Paginas Web</string>
+    <string name="BotonClima">Ver Clima</string>
     <string name="BotonIntro">Aceptar</string>
     <string name="opcion1">MalezArg</string>
     <string name="infomalezarg">Deteccion y monitoreo de malezas con ubicacion en el mapa</string>
@@ -15,7 +16,8 @@
     <string name="mensajeemergente">La Aplicacion no esta instalada,¿desea instalarla?</string>
     <string name="resputestaSI">Si</string>
     <string name="respuestaNO">No</string>
-    <string name="Textointroduccion">Bienvenido a NOMBRE DE LA APP, su nueva aplicación para organizar, su trabajo.
-Nuestra aplicación le brindara acceso a páginas web con información que pueda resultarle útil , además de contar un una selección de recomendaciones para usted de diferentes aplicaciones que podría instalar para complementarla y aplicarla.
-</string>
+    <string name="Textointroduccion">Bienvenido a AGRO LAUNCHER, una aplicación destinada a recomendarle
+        las mejores aplicaciones para su negocio, además de acceso a páginas web para consultar información
+        y una vista diaria a las noticias relacionadas al rubro de agro y la ganadería, esperamos que esta aplicación
+        le sea útil.</string>
 </resources>
